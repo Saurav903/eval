@@ -18,7 +18,7 @@ export default function Home({data}) {
         <div>
             <div style={{width:"50%",margin:"auto"}}>
               <div key={data.id}>
-                <img src={data.avatar_url} alt="pro" style={{width:"80%",borderRadius:"50%"}}/>
+                <img src="https://avatars.githubusercontent.com/u/112169989?v=4" alt="pro" style={{width:"80%",borderRadius:"50%"}}/>
                 <h1 style={{textAlign:"center"}}>{data.name}</h1>
                 <h2>{data.bio}</h2>
                 <a href="https://drive.google.com/drive/folders/1ceg93Wkl9GSP0RPzUoXqcMnPSO3v7uIK?usp=share_link"><button style={{fontSize:"30px",padding:"5px",borderRadius:"10px",border:"none"}}>Resume</button></a>
